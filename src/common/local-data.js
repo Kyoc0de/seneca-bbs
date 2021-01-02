@@ -1,15 +1,11 @@
 export const headerLinks = [
   {
-      title: "新闻News",
+      title: "新闻 | News",
       link: "/new"
   },
   {
       title: "论坛BBS",
       link: "/bbs"
-  },
-  {
-      title: "关于我们",
-      link: "/active"
   },
   {
       title: "学校官网",
@@ -60,5 +56,29 @@ export const footerImages = [
   },
   {
     link: "https://music.163.com/uservideo#/plan"
+  }
+]
+
+// discover中的数据
+export const bbsMenu = [
+  {
+      title: "全部",
+      link: "/bbs/all"
+  },
+  {
+      title: "精品",
+      link: "/bbs/good"
+  },
+  {
+      title: "解疑",
+      link: "/bbs/songs"
+  },
+  {
+      title: "资源",
+      link: "/bbs/djradio"
+  },
+  {
+      title: "其他",
+      link: "/bbs/artist"
   }
 ]

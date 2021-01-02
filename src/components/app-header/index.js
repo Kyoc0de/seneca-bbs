@@ -15,7 +15,7 @@ export default memo(function KYOAppHeader(){
 
   //业务代码
   const showSelectItem = (item, index) => {
-    if(index<3){
+    if(index<2){
       return(
         <NavLink to={item.link}>
           {item.title}
@@ -32,7 +32,7 @@ export default memo(function KYOAppHeader(){
     <HeaderWrapper>
       <div className="content wrap-v1">
         <HeaderLeft>
-          <a href='#/' className="logo sprite_01">Seneca中文社区</a>
+          <a href='#/bbs' className="logo sprite_01">Seneca中文社区</a>
           <div className="select-list">
             {
               headerLinks.map((item,index)=>{
