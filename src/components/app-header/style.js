@@ -24,7 +24,7 @@ export const HeaderLeft = styled.div`
 
   .logo {
     display: block;
-    width: 176px;
+    width: 200px;
     height: 69px;
     background-position: 0 0;
     text-indent: -9999px;
@@ -83,8 +83,9 @@ export const HeaderRight = styled.div`
 
 
   .search {
-    width: 158px;
+    width: 200px;
     height: 32px;
+    margin-right: 20px;
     border-radius: 16px;
 
     input {

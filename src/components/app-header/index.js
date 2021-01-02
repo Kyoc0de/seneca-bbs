@@ -1,11 +1,14 @@
 import React, { memo } from 'react'
-import { NavLink } from 'react-router-dom' 
+import { NavLink } from 'react-router-dom'
+import { SearchOutlined } from '@ant-design/icons'
+import { Input } from "antd"; 
 
 import { headerLinks } from '@/common/local-data'
 
 import {
   HeaderWrapper,
-  HeaderLeft
+  HeaderLeft,
+  HeaderRight
 } from './style'
 
 export default memo(function KYOAppHeader(){
@@ -16,7 +19,7 @@ export default memo(function KYOAppHeader(){
       return(
         <NavLink to={item.link}>
           {item.title}
-
+          <i className="sprite_011 icon"></i>
         </NavLink>
       )
     }else {
@@ -42,7 +45,12 @@ export default memo(function KYOAppHeader(){
             }
           </div>
         </HeaderLeft>
+        <HeaderRight>
+          <Input className="search" placeholder="话题" prefix={<SearchOutlined />}/>
+            <div>登录</div>
+        </HeaderRight>
       </div>
+      <div className="divider"></div>
     </HeaderWrapper>
 
   )
