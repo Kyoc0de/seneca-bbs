@@ -11,6 +11,9 @@ import KYOBBSQuestion from '@/pages/homePage/bbs-pages/question'
 import KYOBBSResource from '@/pages/homePage/bbs-pages/resource'
 import KYOBBSOther from '@/pages/homePage/bbs-pages/other'
 
+//news
+import KYONews from '@/pages/newsPage'
+
 const routes = [
   {
     path: '/',
@@ -51,6 +54,10 @@ const routes = [
         component: KYOBBSOther
       }
     ]
+  },
+  {
+    path: '/news',
+    component: KYONews
   }
 ]
 

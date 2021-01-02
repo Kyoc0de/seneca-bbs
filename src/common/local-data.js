@@ -1,7 +1,7 @@
 export const headerLinks = [
   {
       title: "新闻 | News",
-      link: "/new"
+      link: "/news"
   },
   {
       title: "论坛BBS",
