@@ -1,0 +1,1 @@
+export const GET_ALL_NEWS = "all/GET_ALL_NEWS"
