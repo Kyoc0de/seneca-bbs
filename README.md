@@ -15,4 +15,6 @@
 1. header / footer ✅
 2. bbs论坛子导航栏 ✅
 3. 封装axios请求
-4. redux
+4. redux ✅
+5. 组件封装 
+6. 首页轮播图 
